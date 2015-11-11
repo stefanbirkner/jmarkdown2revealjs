@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Your deck.js Presentation</title>
+    <link rel="stylesheet" href="{{urlprefix}}css/reveal.min.css">
+    <link rel="stylesheet" href="{{urlprefix}}css/theme/default.css" id="theme">
+    <!--Add support for earlier versions of Internet Explorer -->
+    <!--[if lt IE 9]>
+    <script src="{{urlprefix}}lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        {{slides}}
+    </div>
+</div>
+<script src="{{urlprefix}}lib/js/head.min.js"></script>
+<script src="{{urlprefix}}js/reveal.min.js"></script>
+
+<script>
+    // Required, even if empty.
+    Reveal.initialize({});
+</script>
+</body>
+</html>
